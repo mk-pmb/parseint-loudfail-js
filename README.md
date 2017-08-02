@@ -10,6 +10,22 @@ returning a partially parsed number.
 <!--/#echo -->
 
 
+API
+---
+
+This module exports one function:
+
+### parseIntLoudFail(digits, radix[, invalid])
+
+* `digits` must me a string that consist of optional whitespace,
+  then an optional sign (`+` or `-`), then some obligatory digits.
+* `radix` must be an integer in range 2..36.
+* If `invalid` is provided and `!== 0` and an error occurs,
+  `invalid` is returned instead of throwing the error.
+* If successful, returns the integer represented by `digits` as a `Number`.
+
+
+
 Usage
 -----
 

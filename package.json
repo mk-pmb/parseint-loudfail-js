@@ -1,5 +1,5 @@
 { "name": "parseint-loudfail",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "If this parseInt() encounters an invalid digit, it fails loudly instead of returning a partially parsed number.",
   "keywords": [ "parseInt", "parse", "integer", "fail", "loud" ],
 
