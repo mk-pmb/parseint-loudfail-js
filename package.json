@@ -1,0 +1,29 @@
+{ "name": "parseint-loudfail",
+  "version": "1.0.2",
+  "description": "If this parseInt() encounters an invalid digit, it fails loudly instead of returning a partially parsed number.",
+  "keywords": [ "parseInt", "parse", "integer", "fail", "loud" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/parseint-loudfail-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/parseint-loudfail-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/parseint-loudfail-js/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "pi.js",
+  "scripts": { "test": "nodejs test.usage.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "equal-pmb": "^0.1.6"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
